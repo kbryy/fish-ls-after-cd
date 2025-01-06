@@ -13,6 +13,15 @@ fisher install kbryy/fish-ls-after-cd
 
 This plugin will automatically display the directory contents when you change directories (`cd`).
 
+### Customizing the Command
+
+You can change the default command (`ls -GF`) by setting the `LS_AFTER_CD_COMMAND` environment variable.
+
+#### Example: Use `fd` instead of `ls`
+```fish
+set -xg LS_AFTER_CD_COMMAND "fd --max-depth 1 --color always --hidden"
+```
+
 ### Enable/Disable
 
 To disable the plugin temporarily:
