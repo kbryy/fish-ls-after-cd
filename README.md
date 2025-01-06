@@ -6,7 +6,7 @@ A simple Fish plugin that automatically lists the contents of a directory (`ls`)
 Install with [Fisher](https://github.com/jorgebucaran/fisher):
 
 ```bash
-fisher install kbryy/fish-ls-after-cd
+fisher install kbryy/ls-after-cd.fish
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ set -xg LS_AFTER_CD true
 
 To remove the plugin, simply uninstall it with Fisher:
 ```bash
-fisher uninstall kbryy/fish-ls-after-cd
+fisher uninstall kbryy/ls-after-cd.fish
 ```
 
 <!-- ## License -->
